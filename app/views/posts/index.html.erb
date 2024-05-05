@@ -1,4 +1,7 @@
-<h1>AjaxApp</h1>
+<div class="title_box">
+  <h1 class="title">AjaxApp</h1>
+</div>
+
 <%= form_with url:  "/posts", method: :post,id: "form" do |form| %>
   <%= form.text_field :content  , id: "content" %>
   <%= form.submit '投稿する' , id: "submit" %>

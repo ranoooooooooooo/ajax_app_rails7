@@ -1,9 +1,27 @@
+body{
+  background-color: rgb(250, 240, 230);
+}
+
 .post{
-  border: 1px solid;
+  border: 1px solid rgb(230, 230, 230);
   width: 40%;
   margin-top: 30px;
 }
 
 .post-date{
-  color: gray;
+  color: rgb(180, 180, 180);
+}
+
+.title{
+  font-size: 10vh;
+  line-height: 1.4;
+  font-family: 'Avenir', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.title_box{
+  width: 100%;
+  background-color: rgb(230, 230, 230);
 }
